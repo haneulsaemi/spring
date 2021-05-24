@@ -13,7 +13,7 @@ public class TVUser {
 		tv.volumUp();
 		tv.volumDown();
 */
-		AbstractApplicationContext factory = new GenericXmlApplicationContext("applicationContext.xml");
+		AbstractApplicationContext factory = new GenericXmlApplicationContext("applicationContext2.xml");
 		
 		TV tv = (TV)factory.getBean("tv");
 		tv.powerOn();
